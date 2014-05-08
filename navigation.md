@@ -13,4 +13,4 @@
 [Twitter @PicklesDoc](https://twitter.com/PicklesDoc)
 [Google Group](https://groups.google.com/forum/#!forum/pickles-dev)
 
-[gimmick:forkmeongithub](https://github.com/picklesdoc/pickles/)
+[gimmick:forkmeongithub(color: 'green')](https://github.com/picklesdoc/pickles)
