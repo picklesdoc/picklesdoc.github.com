@@ -13,6 +13,7 @@
 - [System Under Test Version](pages/ArgumentsSystemUnderTestVersion.md)
 - [Test Results File](pages/ArgumentsTestResultsFile.md)
 - [Test Results Format](pages/ArgumentsTestResultsFormat.md)
+- [Console Application](pages/ConsoleApplication.md)
 
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
