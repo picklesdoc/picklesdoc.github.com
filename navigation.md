@@ -6,6 +6,7 @@
 
 - [Home](pages/home.md)
 - [Arguments](pages/arguments.md)
+- [Documentation Format](pages/argumentsdocumentationformat.md)
 
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
