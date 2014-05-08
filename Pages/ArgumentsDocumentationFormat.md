@@ -25,27 +25,24 @@ html, dhtml, excel, json, word, dita
 
 ## Usage
 
-Console
+### Console
 
 	Pickles.exe --documentation-format=Word
 
 	Pickles.exe -df=Word
 
-Powershell
+### Powershell
 
 	Pickle-Features -DocumentationFormat Word
 
-MSBuild
+### MSBuild
 
-	xml
     <target Name="document">
         <pickles DocumentationFormat="Word" />
     </target>
 
+### NAnt
 
-NAnt
-
-    xml
     <Target Name="document">
         <Pickles documentationFormat="Word" />
     </Target>
