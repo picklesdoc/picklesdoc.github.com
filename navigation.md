@@ -5,6 +5,7 @@
 [Wiki Pages]()
 
 - [Home](pages/home.md)
+- [Arguments](pages/arguments.md)
 
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
