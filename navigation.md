@@ -10,6 +10,7 @@
 - [Feature Directory](pages/ArgumentsFeatureDirectory.md)
 - [Output Directory](pages/ArgumentsOutputDirectory.md)
 - [System Under Test Name](pages/ArgumentsSystemUnderTestName.md)
+- [System Under Test Version](pages/ArgumentsSystemUnderTestVersion.md)
 
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
