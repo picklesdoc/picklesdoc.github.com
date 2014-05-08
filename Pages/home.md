@@ -8,11 +8,11 @@ What does it do for me?
 
 Pickles was greatly influenced by the [Specification by Example](http://specificationbyexample.com/) book from Gojko Adzic and the [Relish](http://www.relishapp.com) project.  While I love the idea behind Relish I don't use Ruby and I'm on a corporate intranet so a SaaS application that is only on the internet is useless to me.  With no alternative out there, the only real option was to build one.
 
-Pickles is very simple at heart.  You point it to a directory tree containing your feature files and it will search that tree, cataloging each .feature file it finds and converting it to HTML, storing the HTML files in a location of your choosing.  Pickles turns the plain-text feature into easy-to-read HTML that have a table of contents included so that you can easily navigate among the features.  I have plans for other features for customising the output that you would like to see.  See the [[Contributions|HowToContribute]] page for some ideas.
+Pickles is very simple at heart.  You point it to a directory tree containing your feature files and it will search that tree, cataloging each .feature file it finds and converting it to HTML, storing the HTML files in a location of your choosing.  Pickles turns the plain-text feature into easy-to-read HTML that have a table of contents included so that you can easily navigate among the features.  I have plans for other features for customising the output that you would like to see.  See the [How To Contributions](HowToContribute) page for some ideas.
 
 ### That's all cool, but how do I run it?
 
-See the [[Getting Started|GettingStarted]] page for more details.
+See the [Getting Started](GettingStarted) page for more details.
 
 There are currently several ways of running Pickles:
 
