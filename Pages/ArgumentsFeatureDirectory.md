@@ -17,13 +17,13 @@ Any valid directory path, either absolute or relative.
 
 ### Console
 
-	Pickles.exe --feature-directory=C:\MyProject\Features`
+	Pickles.exe --feature-directory=C:\MyProject\Features
 
-	Pickles.exe -f=C:\MyProject\Features`
+	Pickles.exe -f=C:\MyProject\Features
 
 ### Powershell
 
-	Pickle-Features -FeatureDirectory C:\MyProject\Features`
+	Pickle-Features -FeatureDirectory C:\MyProject\Features
 
 ### MSBuild
 
