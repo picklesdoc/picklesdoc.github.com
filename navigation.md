@@ -8,6 +8,7 @@
 - [Arguments](pages/arguments.md)
 - [Documentation Format](pages/argumentsdocumentationformat.md)
 - [Feature Directory](pages/ArgumentsFeatureDirectory.md)
+- [Output Directory](pages/ArgumentsOutputDirectory.md)
 
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
