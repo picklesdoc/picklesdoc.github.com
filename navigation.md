@@ -14,6 +14,9 @@
 - [Test Results File](pages/ArgumentsTestResultsFile.md)
 - [Test Results Format](pages/ArgumentsTestResultsFormat.md)
 - [Console Application](pages/ConsoleApplication.md)
+- [Getting Started](pages/gettingstarted.md)
+- [How To Contribute](pages/HowToContribute.md)
+- [Integrating Test Results From SpecRun](pages/IntegratingTestResultsFromSpecRun.md)
 
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
