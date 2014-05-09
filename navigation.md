@@ -4,7 +4,7 @@
 
 [Wiki Pages]()
 
-- [Home](pages/home.md)
+- [Home](pages_home.md)
 - [Arguments](pages/arguments.md)
 - [Documentation Format](pages/argumentsdocumentationformat.md)
 - [Feature Directory](pages/ArgumentsFeatureDirectory.md)
