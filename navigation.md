@@ -17,6 +17,10 @@
 - [Getting Started](pages/gettingstarted.md)
 - [How To Contribute](pages/HowToContribute.md)
 - [Integrating Test Results From SpecRun](pages/IntegratingTestResultsFromSpecRun.md)
+- [MSBuild Task](pages/msbuildtask.md)
+- [NAnt Task](pages/nanttask.md)
+- [PowerShell commandlet](pages/PowerShellcommandlet.md)
+- [Release Process](pages/ReleaseProcess.md)
 
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
