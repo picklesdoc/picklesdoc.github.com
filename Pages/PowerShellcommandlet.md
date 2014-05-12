@@ -17,12 +17,12 @@ If you then hit tab you get intellisense for the different parameters of the com
 ## Parameters
 Listed below are the parameters that you can use with Pickle-Features (in version 0.3.0.0):
 
-* -FeatureDirectory (Required) - the directory containing the .feature files you want to pickle
-* -OutputDirectory (Required) - the directory where you want the output
-* -SystemUnderTestName (Optional) - the name of the system the features are testing. This will appear in the documentation
-* -SystemUnderTestVersion (Optional) - the version of the system the features are testing. This will appear in the documentation
-* -Language (Optional) - the [language](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.yml) used in the feature-files.
-* -TestResultsFile (Optional) - the result of a test run using the features. Used to show which test are failing etc. 
+* **FeatureDirectory** (Required) - the directory containing the .feature files you want to pickle
+* **OutputDirectory** (Required) - the directory where you want the output
+* **SystemUnderTestName** (Optional) - the name of the system the features are testing. This will appear in the documentation
+* **SystemUnderTestVersion** (Optional) - the version of the system the features are testing. This will appear in the documentation
+* **Language** (Optional) - the [language](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.yml) used in the feature-files.
+* **TestResultsFile** (Optional) - the result of a test run using the features. Used to show which test are failing etc. 
 
 ## Example - materialistic usage
 
