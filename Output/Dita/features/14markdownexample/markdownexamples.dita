@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="sample_markdown_feature">
+  <title>Sample Markdown Feature</title>
+  <shortdesc>Header 1
+========
+
+Header 2
+--------
+
+This is a *significant* word
+
+1. Ordered #1
+2. Ordered #2
+3. Ordered #3
+
+- Unordered #1 
+- Unordered #2
+- Unordered #3 	
+
+Horizontal Rule:  
+- - -
+
+Table example:  
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | 
+
+- - -
+
+Including a picture: ![](./image.png)</shortdesc>
+  <body>
+    <section>
+      <title>Sample Markdown Scenario Example</title>
+      <p>
+This is **important** text
+
+Code Block:  
+```
+var x = 2;
+```
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in 
+the family Rosaceae.
+:   An American computer company.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.</p>
+      <p>
+        <keyword>Given </keyword>this</p>
+      <p>
+        <keyword>Then </keyword>that</p>
+    </section>
+    <section>
+      <title>Sample Markdown Scenario Outline Example</title>
+      <p>
+This is [an example link to pickles](https://github.com/picklesdoc/pickles/wiki "Pickles") inline link.
+
+[This link to pickles](https://github.com/picklesdoc/pickles/wiki) has no title attribute.</p>
+      <p>
+        <keyword>Given </keyword>this: &lt;test&gt;</p>
+      <p>
+        <keyword>Then </keyword>that: &lt;test2&gt;</p>
+    </section>
+  </body>
+</topic>

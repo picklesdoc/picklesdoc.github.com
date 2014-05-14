@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="tag_demonstrator">
+  <title>Tag demonstrator</title>
+  <shortdesc>In order to show the capabilities of tags in SpecFlow
+As a SpecFlow evanglist
+I want to write scenarios that has tags and show their usage in code</shortdesc>
+  <body>
+    <section>
+      <title>Ignored scenario</title>
+      <p>
+        <keyword>Given </keyword>that my scenario has the @ignore tag</p>
+      <p>
+        <keyword>When </keyword>I run the scenario</p>
+      <p>
+        <keyword>Then </keyword>the scenario is ignored</p>
+      <p>
+        <keyword>And </keyword>the missing step definitions are not reported</p>
+    </section>
+    <section>
+      <title>A scenario without tags</title>
+      <p>
+        <keyword>Given </keyword>that my scenario has 0 tags</p>
+      <p>
+        <keyword>When </keyword>I run the scenario</p>
+      <p>
+        <keyword>Then </keyword>before scenario hook with '' is run</p>
+    </section>
+    <section>
+      <title>A scenario with 1 tag</title>
+      <p>
+        <keyword>Given </keyword>that my scenario has 1 tags</p>
+      <p>
+        <keyword>When </keyword>I run the scenario</p>
+      <p>
+        <keyword>Then </keyword>before scenario hook with 'testTag1' is run</p>
+    </section>
+    <section>
+      <title>A scenario with 3 tags</title>
+      <p>
+        <keyword>Given </keyword>that my scenario has 3 tags</p>
+      <p>
+        <keyword>When </keyword>I run the scenario</p>
+      <p>
+        <keyword>Then </keyword>before scenario hook with 'testTag1, testTag2, testTag3' is run</p>
+    </section>
+    <section>
+      <title>A scenario with 2 tags</title>
+      <p>
+        <keyword>Given </keyword>that my scenario has 2 tags</p>
+      <p>
+        <keyword>When </keyword>I run the scenario</p>
+      <p>
+        <keyword>Then </keyword>before scenario hook with 'testTag1, testTag3' is run</p>
+    </section>
+  </body>
+</topic>

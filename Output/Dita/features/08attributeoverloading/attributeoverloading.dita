@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="attribute_overloading">
+  <title>Attribute overloading</title>
+  <shortdesc>In order to show that steps can be used with multiple attributes
+As a SpecFlow Evangelist
+I want to show that similar attributes can be applied to the same step definition</shortdesc>
+  <body>
+    <section>
+      <title>Checking number for evenness</title>
+      <p>
+        <keyword>Given </keyword>I have this simple step</p>
+      <p>
+        <keyword>And </keyword>this simple step</p>
+      <p>
+        <keyword>And </keyword>also this step</p>
+      <p>
+        <keyword>When </keyword>I do something</p>
+      <p>
+        <keyword>Then </keyword>I could validate that the number 2 is even</p>
+      <p>
+        <keyword>And </keyword>that the number 4 is even</p>
+      <p>
+        <keyword>But </keyword>the number 3 is odd</p>
+    </section>
+  </body>
+</topic>

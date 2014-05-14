@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="scenario_outline">
+  <title>Scenario outline</title>
+  <shortdesc>In order to not have to type the same scenario over and over
+As a SpecFlow evangelist
+I want to show how to use ScenarioOutline</shortdesc>
+  <body>
+    <section>
+      <title>Add two positive numbers with many examples</title>
+      <p>
+        <keyword>Given </keyword>I enter &lt;number 1&gt; into the calculator</p>
+      <p>
+        <keyword>And </keyword>I enter &lt;number 2&gt; into the calculator</p>
+      <p>
+        <keyword>When </keyword>I perform add</p>
+      <p>
+        <keyword>Then </keyword>the result should be &lt;result&gt;</p>
+    </section>
+    <section>
+      <title>Add two negative numbers with many examples</title>
+      <p>
+        <keyword>Given </keyword>I enter &lt;number 1&gt; into the calculator</p>
+      <p>
+        <keyword>And </keyword>I enter &lt;number 2&gt; into the calculator</p>
+      <p>
+        <keyword>When </keyword>I perform add</p>
+      <p>
+        <keyword>Then </keyword>the result should be &lt;result&gt;</p>
+    </section>
+  </body>
+</topic>

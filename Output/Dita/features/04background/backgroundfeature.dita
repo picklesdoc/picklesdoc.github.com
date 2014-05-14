@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="show_the_use_of_background">
+  <title>Show the use of background</title>
+  <shortdesc>In order to show how to use the Background keyword of Gherkin
+As a SpecFlow evanglist
+I want to show that background steps are called before any scenario step</shortdesc>
+  <body>
+    <section>
+      <title>Add 1 to the sum</title>
+      <p>
+        <keyword>When </keyword>I add 1 to the Sum-variable</p>
+      <p>
+        <keyword>Then </keyword>the total sum should be 2</p>
+    </section>
+    <section>
+      <title>Add 2 to the sum</title>
+      <p>
+        <keyword>When </keyword>I add 2 to the Sum-variable</p>
+      <p>
+        <keyword>Then </keyword>the total sum should be 3</p>
+    </section>
+  </body>
+</topic>

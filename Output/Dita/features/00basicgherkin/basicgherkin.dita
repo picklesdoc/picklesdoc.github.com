@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="showing_basic_gherkin_syntax">
+  <title>Showing basic gherkin syntax</title>
+  <shortdesc>In order to see that gherkin is a very simple langauge  
+As a SpecFlow evangelist  
+I want to show that basic syntax  
+
+![Test Image](test.jpg)</shortdesc>
+  <body>
+    <section>
+      <title>Simple GWT</title>
+      <p>
+        <keyword>Given </keyword>the initial state of the application is Running</p>
+      <p>
+        <keyword>When </keyword>I ask what the application state is</p>
+      <p>
+        <keyword>Then </keyword>I should see Running as the answer</p>
+    </section>
+    <section>
+      <title>Using And and But</title>
+      <p>
+        <keyword>Given </keyword>the initial state of the application is Running</p>
+      <p>
+        <keyword>And </keyword>I have authorization to ask application state</p>
+      <p>
+        <keyword>When </keyword>I ask what the application state is</p>
+      <p>
+        <keyword>Then </keyword>I should see Running as the answer</p>
+      <p>
+        <keyword>And </keyword>I should see the time of the application</p>
+      <p>
+        <keyword>But </keyword>the state of the application should not be Stopped</p>
+    </section>
+  </body>
+</topic>

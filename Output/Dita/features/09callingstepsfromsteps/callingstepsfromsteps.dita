@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="calling_steps_from_stepdefinitions">
+  <title>Calling Steps from StepDefinitions</title>
+  <shortdesc>In order to create steps of a higher abstraction
+As a SpecFlow evangelist
+I want reuse other steps in my step definitions</shortdesc>
+  <body>
+    <section>
+      <title>Log in</title>
+      <p>
+        <keyword>Given </keyword>I am on the index page</p>
+      <p>
+        <keyword>When </keyword>I enter my unsername nad password</p>
+      <p>
+        <keyword>And </keyword>I click the login button</p>
+      <p>
+        <keyword>Then </keyword>the welcome page should be displayed</p>
+    </section>
+    <section>
+      <title>Do something meaningful</title>
+      <p>
+        <keyword>Given </keyword>I am logged in</p>
+      <p>
+        <keyword>When </keyword>I dosomething meaningful</p>
+      <p>
+        <keyword>Then </keyword>I should get rewarded</p>
+    </section>
+  </body>
+</topic>

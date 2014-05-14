@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="step_argument_transformations">
+  <title>Step Argument Transformations</title>
+  <shortdesc>In order to reduce the amount of code and repetitive tasks in my steps
+As a SpecFlow evanglist
+I want to define reusable transformations for my step arguments</shortdesc>
+  <body>
+    <section>
+      <title>Steps with non-string arguments</title>
+      <p>
+        <keyword>Given </keyword>Dan has been registered at date 2003/03/13</p>
+      <p>
+        <keyword>And </keyword>Aslak has been registered at terminal 2</p>
+      <p>
+        <keyword>Then </keyword>I should be able to see Aslak at terminal 2</p>
+    </section>
+  </body>
+</topic>

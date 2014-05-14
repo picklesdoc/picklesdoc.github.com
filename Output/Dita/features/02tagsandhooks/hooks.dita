@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"[]>
+<topic id="addition">
+  <title>Addition</title>
+  <shortdesc>In order to explain the order in which hooks are run
+As a SpecFlow evanglist
+I wan to  be able to hook into pre and post conditions in SpecFlow</shortdesc>
+  <body>
+    <section>
+      <title>Hooking into pre conditions for Test Runs in SpecFlow</title>
+      <p>
+        <keyword>Given </keyword>the scenario is running</p>
+      <p>
+        <keyword>Then </keyword>the BeforeTestRun hook should have been executed</p>
+    </section>
+    <section>
+      <title>Hooking into pre conditions for Features in SpecFlow</title>
+      <p>
+        <keyword>Given </keyword>the scenario is running</p>
+      <p>
+        <keyword>Then </keyword>the BeforeFeature hook should have been executed</p>
+    </section>
+    <section>
+      <title>Hooking into pre conditions for Scenarios in SpecFlow</title>
+      <p>
+        <keyword>Given </keyword>the scenario is running</p>
+      <p>
+        <keyword>Then </keyword>the BeforeScenario hook should have been executed</p>
+    </section>
+    <section>
+      <title>Hooking into pre conditions for ScenarioBlocks in SpecFlow</title>
+      <p>
+        <keyword>Given </keyword>the scenario is running</p>
+      <p>
+        <keyword>Then </keyword>the BeforeScenarioBlock hook should have been executed</p>
+    </section>
+    <section>
+      <title>Hooking into pre conditions for Steps in SpecFlow</title>
+      <p>
+        <keyword>Given </keyword>the scenario is running</p>
+      <p>
+        <keyword>Then </keyword>the BeforeStep hook should have been executed</p>
+    </section>
+  </body>
+</topic>
