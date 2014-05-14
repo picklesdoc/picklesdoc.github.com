@@ -35,12 +35,12 @@ The Open Source Living Documentation Generator
 
  Pickles can generate your documentation in the following formats:
 
-- [HTML site with search capabilities](./Output/DHTML.zip)
-- [Static HTML site](./Output/HTML.zip)
-- [JSON raw datas](./Output/JSon.zip)
-- [Word (.docx)](./Output/Word.zip)
-- [DITA](./Output/DITA.zip)
-- [Excel](./Output/Excel.zip)
+- [HTML site with search capabilities](./Output/DHTML/Index.html)
+- [Static HTML site](./Output/Html/index.html)
+- [JSON raw datas](./Output/JSON/pickledFeatures.json)
+- [Word (.docx)](./Output/Word/Pickles.docx)
+- [DITA](./Output/Dita.zip)
+- [Excel](./Output/Excel/features.xlsx)
 
 ## Copyright and Licenses
 
