@@ -4,7 +4,7 @@ The Open Source Living Documentation Generator
 
 ## Download
 
-[Download](https://github.com/picklesdoc/pickles/releases/download/v0.17.2/pickles-0.17.2.zip) the current version (including all runners).
+[Download](https://github.com/picklesdoc/pickles/releases/download/v0.17.3/pickles-0.17.3.zip) the current version (including all runners).
 
 ## Source Code
 
@@ -14,7 +14,7 @@ The Open Source Living Documentation Generator
 ## Previous Versions
 
 <!---
-- [Pickles version 0.17.2](https://github.com/picklesdoc/pickles/releases/download/v0.17.2/pickles-0.17.2.zip) 
+- [Pickles version 0.17.3](https://github.com/picklesdoc/pickles/releases/download/v0.17.3/pickles-0.17.3.zip) 
 -->
 
 - [Pickles version 0.16.0](https://github.com/picklesdoc/pickles/releases/download/v0.16.0/pickles-0.16.0.zip) 
