@@ -2,6 +2,8 @@
 
 The Open Source Living Documentation Generator
 
+[![Build status](https://ci.appveyor.com/api/projects/status/rqt59hq1m2jt2a5v)](https://ci.appveyor.com/project/dirkrombauts/pickles-715)
+
 ## Download
 
 [Download](https://github.com/picklesdoc/pickles/releases/download/v0.17.4/pickles-0.17.4.zip) the current version (including all runners).
