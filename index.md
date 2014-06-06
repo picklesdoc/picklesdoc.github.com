@@ -2,6 +2,9 @@
 
 The Open Source Living Documentation Generator
 
+## We need your help!
+
+We would like to know how we're doing with Pickles and what we need to focus on. Please take a few minutes to answer this [survey with 14 short questions](http://3348403.polldaddy.com/s/pickles "Pickles Survey"). Many thanks!
 
 ## Download
 
