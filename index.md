@@ -1,6 +1,4 @@
-# Pickles
-
-The Open Source Living Documentation Generator
+# Pickles - The Open Source Living Documentation Generator
 
 [![](./Images/download.png)](https://github.com/picklesdoc/pickles/releases/download/v0.17.4/pickles-0.17.4.zip)
 
