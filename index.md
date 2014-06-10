@@ -2,13 +2,13 @@
 
 The Open Source Living Documentation Generator
 
+[![](./Images/download.png)](https://github.com/picklesdoc/pickles/releases/download/v0.17.4/pickles-0.17.4.zip)
+
+The download package includes all runners.
+
 ## We need your help!
 
 We would like to know how we're doing with Pickles and what we need to focus on. Please take a few minutes to answer this [survey with 14 short questions](http://3348403.polldaddy.com/s/pickles "Pickles Survey"). Many thanks!
-
-## Download
-
-[Download](https://github.com/picklesdoc/pickles/releases/download/v0.17.4/pickles-0.17.4.zip) the current version (including all runners).
 
 ## Source Code
 
