@@ -19,25 +19,8 @@ We would like to know how we're doing with Pickles and what we need to focus on.
 
 ## Previous Versions
 
-<!---
-- [Pickles version 0.17.4](https://github.com/picklesdoc/pickles/releases/download/v0.17.4/pickles-0.17.4.zip) 
--->
+You can find previous versions of Pickles on the [Release page on GitHub](https://github.com/picklesdoc/pickles/releases).
 
-- [Pickles version 0.16.0](https://github.com/picklesdoc/pickles/releases/download/v0.16.0/pickles-0.16.0.zip) 
-- [Pickles version 0.15.0](https://github.com/picklesdoc/pickles/releases/download/v0.15.0/pickles-0.15.0.zip)
-- [Pickles version 0.14.0](https://github.com/picklesdoc/pickles/releases/download/v0.14.0/pickles-0.14.0.zip)
-- [Pickles version 0.13.1](https://github.com/picklesdoc/pickles/releases/download/v0.13.1/pickles-0.13.1.zip)
-- [Pickles version 0.12.1](https://github.com/picklesdoc/pickles/releases/download/v0.12.1/pickles-0.12.1.zip)
-- [Pickles version 0.11](https://github.com/picklesdoc/pickles/releases/download/v0.11.0/pickles-0.11.0.zip)
-- [Pickles version 0.10](https://github.com/picklesdoc/pickles/releases/download/v0.10.0/pickles-0.10.0.zip)
-- [Pickles version 0.9](https://github.com/picklesdoc/pickles/releases/download/v0.9.0/pickles-0.9.0.zip)
-- [Pickles version 0.8](https://github.com/picklesdoc/pickles/releases/download/v0.8.0/pickles-0.8.0.zip)
-- [Pickles version 0.7](https://github.com/picklesdoc/pickles/releases/download/v0.7.0/pickles-0.7.0.zip)
-- [Pickles version 0.5](https://github.com/picklesdoc/pickles/releases/download/v0.5.0/pickles-0.5.0.zip)
-- [Pickles version 0.4](https://github.com/picklesdoc/pickles/releases/download/v0.4.0/pickles-0.4.0.zip)
-- [Pickles version 0.3](https://github.com/picklesdoc/pickles/releases/download/v0.3.0/pickles-0.3.0.zip)
-- [Pickles version 0.2](https://github.com/picklesdoc/pickles/releases/download/v0.2.0/pickles-0.2.0.zip)
- 
 ## Example Output
 
  Pickles can generate your documentation in the following formats:
