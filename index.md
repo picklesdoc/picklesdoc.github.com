@@ -8,17 +8,6 @@ The download package includes all runners.
 
 We would like to know how we're doing with Pickles and what we need to focus on. Please take a few minutes to answer this [survey with 14 short questions](http://3348403.polldaddy.com/s/pickles "Pickles Survey"). Many thanks!
 
-## Source Code
-
-[![Build status](https://ci.appveyor.com/api/projects/status/rqt59hq1m2jt2a5v)](https://ci.appveyor.com/project/dirkrombauts/pickles-715)
-
-- [Download **ZIP File**](https://github.com/picklesdoc/pickles/zipball/master)
-- [Download **TAR Ball**](https://github.com/picklesdoc/pickles/tarball/master)
-
-## Previous Versions
-
-You can find previous versions of Pickles on the [Release page on GitHub](https://github.com/picklesdoc/pickles/releases).
-
 ## Example Output
 
  Pickles can generate your documentation in the following formats:
@@ -29,6 +18,17 @@ You can find previous versions of Pickles on the [Release page on GitHub](https:
 - [Word (.docx)](./Output/Word/Pickles.docx)
 - [DITA](./Output/Dita.zip)
 - [Excel](./Output/Excel/features.xlsx)
+
+## Source Code
+
+[![Build status](https://ci.appveyor.com/api/projects/status/rqt59hq1m2jt2a5v)](https://ci.appveyor.com/project/dirkrombauts/pickles-715)
+
+- [Download **ZIP File**](https://github.com/picklesdoc/pickles/zipball/master)
+- [Download **TAR Ball**](https://github.com/picklesdoc/pickles/tarball/master)
+
+## Previous Versions
+
+You can find previous versions of Pickles on the [Release page on GitHub](https://github.com/picklesdoc/pickles/releases).
 
 ## Copyright and Licenses
 
