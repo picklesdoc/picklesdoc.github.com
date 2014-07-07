@@ -1,4 +1,4 @@
-﻿function getFeaturesMatching(searchString, features) {
+function getFeaturesMatching(searchString, features) {
     searchString = searchString.toLowerCase();
     var filteredFeatures = ko.utils.arrayFilter(features, function (feature) {
         if (matchesFeatureName(searchString, feature) ||

@@ -1,4 +1,4 @@
-﻿function FeatureParent(data) {
+function FeatureParent(data) {
     this.RelativeFolder = data.RelativeFolder;
     this.Feature = new Feature(data.Feature);
 }

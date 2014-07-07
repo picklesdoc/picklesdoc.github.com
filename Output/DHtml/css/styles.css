@@ -1,4 +1,4 @@
-﻿body {
+body {
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -118,6 +118,11 @@ li.step {
     left: 0px;
     top: 60px;
     cursor: pointer;
+}
+
+#SutInfo {
+    margin-top: 30px;
+    border-top: 1px lightgrey solid;
 }
 
 .clickable {    

@@ -1,4 +1,4 @@
-﻿function Directory(name) {
+function Directory(name) {
     this.Name = name;
     this.features = new Array();
     this.SubDirectories = new Array();
