@@ -708,6 +708,55 @@ jsonPWrapper ({
       }
     },
     {
+      "RelativeFolder": "Features\\07Svenska\\Svenska.feature",
+      "Feature": {
+        "Name": "Summering",
+        "Description": "För att slippa att göra dumma fel\r\nSom räknare\r\nVill jag kunna lägga summera",
+        "FeatureElements": [
+          {
+            "Name": "Summera 5 och 7 ska vara 12",
+            "Description": "",
+            "Steps": [
+              {
+                "Keyword": "Given",
+                "NativeKeyword": "Givet ",
+                "Name": "att jag har knappat in 5"
+              },
+              {
+                "Keyword": "Given",
+                "NativeKeyword": "Och ",
+                "Name": "att jag har knappat in 7"
+              },
+              {
+                "Keyword": "Given",
+                "NativeKeyword": "När ",
+                "Name": "jag summerar"
+              },
+              {
+                "Keyword": "Given",
+                "NativeKeyword": "Så ",
+                "Name": "ska resultatet vara 12"
+              }
+            ],
+            "Tags": [],
+            "Result": {
+              "WasExecuted": false,
+              "WasSuccessful": false
+            }
+          }
+        ],
+        "Result": {
+          "WasExecuted": false,
+          "WasSuccessful": false
+        },
+        "Tags": []
+      },
+      "Result": {
+        "WasExecuted": false,
+        "WasSuccessful": false
+      }
+    },
+    {
       "RelativeFolder": "Features\\06CompareToAssist\\CompareTo.feature",
       "Feature": {
         "Name": "Show the compare to feature",
@@ -2421,7 +2470,7 @@ jsonPWrapper ({
   ],
   "Configuration": {
     "SutName": "Pickles",
-    "SutVersion": "0.18.0",
-    "PickledOn": "7 Juli 2014 13:39:03"
+    "SutVersion": "0.18.1",
+    "PickledOn": "1 September 2014 11:51:26"
   }
 });
