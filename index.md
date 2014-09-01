@@ -1,6 +1,6 @@
 # Pickles - The Open Source Living Documentation Generator
 
-[![](./Images/download.png)](https://github.com/picklesdoc/pickles/releases/download/v.0.18.0/pickles-0.18.0.zip)
+[![](./Images/download.png)](https://github.com/picklesdoc/pickles/releases/download/v.0.18.1/pickles-0.18.1.zip)
 
 The download package includes all runners.
 
