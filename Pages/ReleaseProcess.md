@@ -7,7 +7,7 @@ We denote versions with x.y.z where x is the major version, y the minor version 
 	2. Date 
 	3. New Feature(s) if any
 	4. Bug(s) Fixed if any 
-1. Check the version number in build.fsx
+1. Check the version number in build.bat
 1. Open a command line and run "build.bat"
 2. go to the deploy folder and unzip pickles-x.y.z.zip
 3. Test the runners
