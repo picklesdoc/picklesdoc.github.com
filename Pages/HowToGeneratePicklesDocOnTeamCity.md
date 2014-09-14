@@ -1,0 +1,1 @@
+# How to automatically generate Pickles documentation on Teamcity?
