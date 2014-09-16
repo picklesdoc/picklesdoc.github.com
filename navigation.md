@@ -15,6 +15,7 @@
 - [Test Results Format](Pages/ArgumentsTestResultsFormat.md)
 - [Console Application](Pages/ConsoleApplication.md)
 - [Getting Started](Pages/GettingStarted.md)
+- [How To Set up Pickles on TeamCity](Pages/HowToGeneratePicklesDocOnTeamCity.md)
 - [How To Contribute](Pages/HowToContribute.md)
 - [Integrating Test Results From SpecRun](Pages/IntegratingTestResultsFromSpecRun.md)
 - [MSBuild Task](Pages/msbuildtask.md)
