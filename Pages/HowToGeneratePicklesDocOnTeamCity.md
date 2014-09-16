@@ -15,9 +15,12 @@ The following picture presents the list of files that have to be included in the
 
 Specflow is complied for .NET 3.5, so if your project uses .NET 4.0, remember to create Specflow.exe.config file with the following content: 
 
-      <?xml version="1.0" encoding="utf-8" ?> 
-      <configuration> 
+    <?xml version="1.0" encoding="utf-8" ?> 
+    <configuration> 
       <startup> 
         <supportedRuntime version="v4.0.30319" /> 
       </startup> 
-      </configuration>
+    </configuration>
+
+Open the configuration of your build project. Add a new build step. 
+In Runner Type dropdown pick "Command Line", in Run dropdown pick "Custom script".

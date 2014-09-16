@@ -1,6 +1,5 @@
 
-3. Open the configuration of your build project. Add a new build step. 
-In Runner Type dropdown pick "Command Line", in Run dropdown pick "Custom script".
+
 
 ![](../Images/TeamCityHowTo/test_reports.PNG)
 
