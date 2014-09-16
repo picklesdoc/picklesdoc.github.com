@@ -1,13 +1,4 @@
 
-
-  ```csharp 
-  <?xml version="1.0" encoding="utf-8" ?> 
-  <configuration> 
-    <startup> 
-      <supportedRuntime version="v4.0.30319" /> 
-    </startup> 
-  </configuration>
-  ```
 3. Open the configuration of your build project. Add a new build step. 
 In Runner Type dropdown pick "Command Line", in Run dropdown pick "Custom script".
 
