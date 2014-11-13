@@ -18,7 +18,7 @@
 - [How To Set up Pickles on TeamCity](Pages/HowToGeneratePicklesDocOnTeamCity.md)
 - [How To Contribute](Pages/HowToContribute.md)
 - [Integrating Test Results From SpecRun](Pages/IntegratingTestResultsFromSpecRun.md)
-- [MSBuild Task](Pages/MSBuildTask.md)
+- [MSBuild Task](Pages/msbuildtask.md)
 - [NAnt Task](Pages/nanttask.md)
 - [PowerShell commandlet](Pages/PowerShellcommandlet.md)
 - [Release Process](Pages/ReleaseProcess.md)
