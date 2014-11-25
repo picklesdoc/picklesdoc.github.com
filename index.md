@@ -16,7 +16,6 @@ We would like to know how we're doing with Pickles and what we need to focus on.
 - [Static HTML site](./Output/Html/index.html)
 - [JSON raw datas](./Output/JSON/pickledFeatures.json)
 - [Word (.docx)](./Output/Word/Pickles.docx)
-- [DITA](./Output/Dita.zip)
 - [Excel](./Output/Excel/features.xlsx)
 
 ## Source Code
