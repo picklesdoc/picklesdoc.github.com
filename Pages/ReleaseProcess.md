@@ -9,6 +9,7 @@ We denote versions with x.y.z where x is the major version, y the minor version 
 	4. Bug(s) Fixed if any 
 1. Check the version number in build.bat
 1. Open a command line and run "build.bat"
+2. Unzip the files in the deploy folder by running "unzip x.y.z"
 2. go to the deploy folder and unzip pickles-x.y.z.zip
 3. Test the runners
 	1. testOutput.cmd x.y.z
