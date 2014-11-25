@@ -19,10 +19,11 @@ We denote versions with x.y.z where x is the major version, y the minor version 
    1. called vx.y.z 
    1. with release notes
    1. tag it with 'vx.y.z' on branch release
-   1. Upload "$/deploy/pickles-x.y.z.zip" to the release
+   1. Upload file "$/deploy/pickles-RUNNER-x.y.z.zip" for each RUNNER to the release
 1. Generate outputs with new version and add to website
 1. Update the picklesdoc website to point to the new version
 1. Push the nuget packages from myget to nuget gallery
+2. Upload the chocolatey package to chocolatey
 1. Make an announcement on pickles-dev group.
 1. Tweet using @PicklesDoc
  
