@@ -1,8 +1,14 @@
 # Pickles - The Open Source Living Documentation Generator
 
-[![](./Images/download.png)](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-0.19.0.zip)
+![](./Images/download.png)
 
-The download package includes all runners.
+Each runner has its own package:
+
+* [Command Line](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-exe-0.19.0.zip)
+* [GUI](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-gui-0.19.0.zip)
+* [PowerShell](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-powershell-0.19.0.zip)
+* [MSBuild](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-msbuild-0.19.0.zip)
+* [NAnt](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-nant-0.19.0.zip)
 
 ## We need your help!
 
