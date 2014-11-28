@@ -1,12 +1,23 @@
 # Pickles - The Open Source Living Documentation Generator
 
-[![](./Images/download.png)](https://github.com/picklesdoc/pickles/releases/download/v0.18.2/pickles-0.18.2.zip)
+![](./Images/download.png)
 
-The download package includes all runners.
+Each runner has a link when you can find download information:
+
+* [Command Line](https://chocolatey.org/packages/pickles)
+* [GUI](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-gui-0.19.0.zip)
+* [PowerShell](http://www.nuget.org/packages/Pickles/)
+* [MSBuild](http://www.nuget.org/packages/Pickles.MSBuild/)
+
+If you prefer to download the .zip files, you can so from the [Github release page](https://github.com/picklesdoc/pickles/releases/tag/v0.19.0).
 
 ## We need your help!
 
 We would like to know how we're doing with Pickles and what we need to focus on. Please take a few minutes to answer this [survey with 14 short questions](http://3348403.polldaddy.com/s/pickles "Pickles Survey"). Many thanks!
+
+## Release Notes
+
+Check out the [release notes](https://github.com/picklesdoc/pickles/releases) to see what's new.
 
 ## Example Output
 
@@ -16,7 +27,6 @@ We would like to know how we're doing with Pickles and what we need to focus on.
 - [Static HTML site](./Output/Html/index.html)
 - [JSON raw datas](./Output/JSON/pickledFeatures.json)
 - [Word (.docx)](./Output/Word/Pickles.docx)
-- [DITA](./Output/Dita.zip)
 - [Excel](./Output/Excel/features.xlsx)
 
 ## Source Code
