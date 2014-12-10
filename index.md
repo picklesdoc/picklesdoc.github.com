@@ -5,11 +5,11 @@
 Each runner has a link when you can find download information:
 
 * [Command Line](https://chocolatey.org/packages/pickles)
-* [GUI](https://github.com/picklesdoc/pickles/releases/download/v0.19.0/pickles-gui-0.19.0.zip)
+* [GUI](https://chocolatey.org/packages/picklesui)
 * [PowerShell](http://www.nuget.org/packages/Pickles/)
 * [MSBuild](http://www.nuget.org/packages/Pickles.MSBuild/)
 
-If you prefer to download the .zip files, you can so from the [Github release page](https://github.com/picklesdoc/pickles/releases/tag/v0.19.0).
+If you prefer to download the .zip files, you can so from the [Github release page](https://github.com/picklesdoc/pickles/releases/tag/v0.20.0).
 
 ## We need your help!
 
