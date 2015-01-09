@@ -2,7 +2,7 @@
 
 # Pickles
 
-[Docs](http://docs.pickles.uservoice.com/)
+[Docs](http://docs.picklesdoc.com/)
 [UserVoice](http://pickles.uservoice.com/)
 [View on GibHub](https://github.com/picklesdoc/pickles)
 [Twitter @PicklesDoc](https://twitter.com/PicklesDoc)
