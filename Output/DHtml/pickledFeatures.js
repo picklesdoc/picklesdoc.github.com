@@ -4,7 +4,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\Workflow\\ClearingScreen.feature",
       "Feature": {
         "Name": "Clearing Screen",
-        "Description": "In order to restart a new set of calculations\r\nAs a math idiot\r\nI want to be able to clear the screen",
+        "Description": "\tIn order to restart a new set of calculations\r\n\tAs a math idiot\r\n\tI want to be able to clear the screen",
         "FeatureElements": [
           {
             "Name": "Clear the screen",
@@ -56,7 +56,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\15Pickles\\InteractiveDHTMLView.feature",
       "Feature": {
         "Name": "Interactive DHTML View",
-        "Description": "In order to increase stakeholder engagement with pickled specs\r\nAs a SpecFlow evangelist  \r\nI want to adjust the level of detail in the DHTML view to suit my audience\r\nSo that I do not overwhelm them.",
+        "Description": "\tIn order to increase stakeholder engagement with pickled specs\r\n\tAs a SpecFlow evangelist  \r\n\tI want to adjust the level of detail in the DHTML view to suit my audience\r\n\tSo that I do not overwhelm them.",
         "FeatureElements": [
           {
             "Name": "Scenario with large data table",
@@ -196,11 +196,11 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\14MarkdownExample\\MarkdownExamples.feature",
       "Feature": {
         "Name": "Sample Markdown Feature",
-        "Description": "Header 1\r\n========\r\n\r\nHeader 2\r\n--------\r\n\r\nThis is a *significant* word\r\n\r\n1. Ordered #1\r\n2. Ordered #2\r\n3. Ordered #3\r\n\r\n- Unordered #1 \r\n- Unordered #2\r\n- Unordered #3 \t\r\n\r\nHorizontal Rule:  \r\n- - -\r\n\r\nTable example:  \r\n| First Header  | Second Header |\r\n| ------------- | ------------- |\r\n| Content Cell  | Content Cell  |\r\n| Content Cell  | Content Cell  | \r\n\r\n- - -\r\n\r\nIncluding a picture: ![](./image.png)",
+        "Description": "\tHeader 1\r\n\t========\r\n\r\n\tHeader 2\r\n\t--------\r\n\r\n\tThis is a *significant* word\r\n\r\n\t1. Ordered #1\r\n\t2. Ordered #2\r\n\t3. Ordered #3\r\n\r\n\t- Unordered #1 \r\n\t- Unordered #2\r\n\t- Unordered #3 \t\r\n\r\n\tHorizontal Rule:  \r\n\t- - -\r\n\r\n\tTable example:  \r\n\t| First Header  | Second Header |\r\n\t| ------------- | ------------- |\r\n\t| Content Cell  | Content Cell  |\r\n\t| Content Cell  | Content Cell  | \r\n\r\n\t- - -\r\n\r\nIncluding a picture: ![](./image.png)",
         "FeatureElements": [
           {
             "Name": "Sample Markdown Scenario Example",
-            "Description": "\r\nThis is **important** text\r\n\r\nCode Block:  \r\n```\r\nvar x = 2;\r\n```\r\n\r\nApple\r\n:   Pomaceous fruit of plants of the genus Malus in \r\nthe family Rosaceae.\r\n:   An American computer company.\r\n\r\nOrange\r\n:   The fruit of an evergreen tree of the genus Citrus.",
+            "Description": "\t\tThis is **important** text\r\n\t\r\n\t\tCode Block:  \r\n\t\t```\r\n\t\tvar x = 2;\r\n\t\t```\r\n\r\n\t\tApple\r\n\t\t:   Pomaceous fruit of plants of the genus Malus in \r\n\t\t\tthe family Rosaceae.\r\n\t\t:   An American computer company.\r\n\r\n\t\tOrange\r\n\t\t:   The fruit of an evergreen tree of the genus Citrus.",
             "Steps": [
               {
                 "Keyword": "Given",
@@ -223,7 +223,7 @@ jsonPWrapper ({
             "Examples": [
               {
                 "Name": "",
-                "Description": "\r\nThis __message__ is important too and is for an *Example* table.",
+                "Description": "\t\t\tThis __message__ is important too and is for an *Example* table.",
                 "TableArgument": {
                   "HeaderRow": [
                     "test",
@@ -239,7 +239,7 @@ jsonPWrapper ({
               }
             ],
             "Name": "Sample Markdown Scenario Outline Example",
-            "Description": "\r\nThis is [an example link to pickles](https://github.com/picklesdoc/pickles/wiki \"Pickles\") inline link.\r\n\r\n[This link to pickles](https://github.com/picklesdoc/pickles/wiki) has no title attribute.",
+            "Description": "\t\tThis is [an example link to pickles](https://github.com/picklesdoc/pickles/wiki \"Pickles\") inline link.\r\n\r\n\t\t[This link to pickles](https://github.com/picklesdoc/pickles/wiki) has no title attribute.",
             "Steps": [
               {
                 "Keyword": "Given",
@@ -263,7 +263,7 @@ jsonPWrapper ({
         ],
         "Background": {
           "Name": "",
-          "Description": "This is the *coolest* background",
+          "Description": "\t\tThis is the *coolest* background",
           "Steps": [
             {
               "Keyword": "Given",
@@ -297,7 +297,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\13MultilineText\\MultilineFeatureExample.feature",
       "Feature": {
         "Name": "Multiline Feature Example",
-        "Description": "In order capture this particular Gherkin feature\r\nAs a Pickles contributer\r\nI want to demonstrate an example of using multiline text in a Scenario",
+        "Description": "\tIn order capture this particular Gherkin feature\r\n\tAs a Pickles contributer\r\n\tI want to demonstrate an example of using multiline text in a Scenario",
         "FeatureElements": [
           {
             "Name": "Mutliline Output",
@@ -344,7 +344,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\12NestedFolders\\ChildFolder\\ChildChildFolder\\NestedFolderExample.feature",
       "Feature": {
         "Name": "Nested Folder Example",
-        "Description": "In order to test nested folder output\r\nAs a silly contributer\r\nI want to create an example of something several folders deep",
+        "Description": "\tIn order to test nested folder output\r\n\tAs a silly contributer\r\n\tI want to create an example of something several folders deep",
         "FeatureElements": [
           {
             "Name": "Nested - Add two numbers",
@@ -395,7 +395,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\11ContextInjection\\ContextInjection.feature",
       "Feature": {
         "Name": "Injecting context into step specifications",
-        "Description": "In order to don't have to rely on the global shared state\r\nand to be able to define the contexts required for each scenario.\r\nAs a SpecFlow Evanglist\r\nI would like to have the system automatically inject an instance of any class as \r\ndefined in the constructor of a step file",
+        "Description": "\tIn order to don't have to rely on the global shared state\r\n\t\tand to be able to define the contexts required for each scenario.\r\n\tAs a SpecFlow Evanglist\r\n\tI would like to have the system automatically inject an instance of any class as \r\n\t\tdefined in the constructor of a step file",
         "FeatureElements": [
           {
             "Name": "Feature with no context",
@@ -528,7 +528,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\10StepTransformation\\StepTransformation.feature",
       "Feature": {
         "Name": "Step Argument Transformations",
-        "Description": "In order to reduce the amount of code and repetitive tasks in my steps\r\nAs a SpecFlow evanglist\r\nI want to define reusable transformations for my step arguments",
+        "Description": "\tIn order to reduce the amount of code and repetitive tasks in my steps\r\n\tAs a SpecFlow evanglist\r\n\tI want to define reusable transformations for my step arguments",
         "FeatureElements": [
           {
             "Name": "Steps with non-string arguments",
@@ -572,7 +572,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\09CallingStepsFromSteps\\CallingStepsFromSteps.feature",
       "Feature": {
         "Name": "Calling Steps from StepDefinitions",
-        "Description": "In order to create steps of a higher abstraction\r\nAs a SpecFlow evangelist\r\nI want reuse other steps in my step definitions",
+        "Description": "\tIn order to create steps of a higher abstraction\r\n\tAs a SpecFlow evangelist\r\n\tI want reuse other steps in my step definitions",
         "FeatureElements": [
           {
             "Name": "Log in",
@@ -647,7 +647,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\08AttributeOverloading\\AttributeOverloading.feature",
       "Feature": {
         "Name": "Attribute overloading",
-        "Description": "In order to show that steps can be used with multiple attributes\r\nAs a SpecFlow Evangelist\r\nI want to show that similar attributes can be applied to the same step definition",
+        "Description": "\tIn order to show that steps can be used with multiple attributes\r\n\tAs a SpecFlow Evangelist\r\n\tI want to show that similar attributes can be applied to the same step definition",
         "FeatureElements": [
           {
             "Name": "Checking number for evenness",
@@ -711,7 +711,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\07Svenska\\Svenska.feature",
       "Feature": {
         "Name": "Summering",
-        "Description": "För att slippa att göra dumma fel\r\nSom räknare\r\nVill jag kunna lägga summera",
+        "Description": "\tFör att slippa att göra dumma fel\r\n\tSom räknare\r\n\tVill jag kunna lägga summera",
         "FeatureElements": [
           {
             "Name": "Summera 5 och 7 ska vara 12",
@@ -723,17 +723,17 @@ jsonPWrapper ({
                 "Name": "att jag har knappat in 5"
               },
               {
-                "Keyword": "Given",
+                "Keyword": "And",
                 "NativeKeyword": "Och ",
                 "Name": "att jag har knappat in 7"
               },
               {
-                "Keyword": "Given",
+                "Keyword": "When",
                 "NativeKeyword": "När ",
                 "Name": "jag summerar"
               },
               {
-                "Keyword": "Given",
+                "Keyword": "Then",
                 "NativeKeyword": "Så ",
                 "Name": "ska resultatet vara 12"
               }
@@ -760,7 +760,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\06CompareToAssist\\CompareTo.feature",
       "Feature": {
         "Name": "Show the compare to feature",
-        "Description": "In order to show the compare to features of SpecFlow Assist\r\nAs a SpecFlow evanglist\r\nI want to show how the different versions of compareTo works",
+        "Description": "\tIn order to show the compare to features of SpecFlow Assist\r\n\tAs a SpecFlow evanglist\r\n\tI want to show how the different versions of compareTo works",
         "FeatureElements": [
           {
             "Name": "CompareToInstance",
@@ -978,7 +978,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\05TablesAndAssist\\TableScenario.feature",
       "Feature": {
         "Name": "Showing table usage",
-        "Description": "In order to show how to use tables\r\nAs a SpecFlow evanglist\r\nI want to write some simple scenarios that uses tables tables",
+        "Description": "\tIn order to show how to use tables\r\n\tAs a SpecFlow evanglist\r\n\tI want to write some simple scenarios that uses tables tables",
         "FeatureElements": [
           {
             "Name": "Using tables",
@@ -1285,7 +1285,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\04Background\\BackgroundFeature.feature",
       "Feature": {
         "Name": "Show the use of background",
-        "Description": "In order to show how to use the Background keyword of Gherkin\r\nAs a SpecFlow evanglist\r\nI want to show that background steps are called before any scenario step",
+        "Description": "\tIn order to show how to use the Background keyword of Gherkin\r\n\tAs a SpecFlow evanglist\r\n\tI want to show that background steps are called before any scenario step",
         "FeatureElements": [
           {
             "Name": "Add 1 to the sum",
@@ -1366,13 +1366,12 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\03ScenarioOutline\\ScenarioOutline.feature",
       "Feature": {
         "Name": "Scenario outline",
-        "Description": "In order to not have to type the same scenario over and over\r\nAs a SpecFlow evangelist\r\nI want to show how to use ScenarioOutline",
+        "Description": "\tIn order to not have to type the same scenario over and over\r\n\tAs a SpecFlow evangelist\r\n\tI want to show how to use ScenarioOutline",
         "FeatureElements": [
           {
             "Examples": [
               {
                 "Name": "less than 100",
-                "Description": "",
                 "TableArgument": {
                   "HeaderRow": [
                     "number 1",
@@ -1400,7 +1399,6 @@ jsonPWrapper ({
               },
               {
                 "Name": "more than 100",
-                "Description": "",
                 "TableArgument": {
                   "HeaderRow": [
                     "number 1",
@@ -1456,7 +1454,6 @@ jsonPWrapper ({
             "Examples": [
               {
                 "Name": "less than 100",
-                "Description": "",
                 "TableArgument": {
                   "HeaderRow": [
                     "number 1",
@@ -1484,7 +1481,6 @@ jsonPWrapper ({
               },
               {
                 "Name": "more than 100",
-                "Description": "",
                 "TableArgument": {
                   "HeaderRow": [
                     "number 1",
@@ -1552,7 +1548,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\032FeatureContext\\FeatureContextFeatures.feature",
       "Feature": {
         "Name": "FeatureContext features",
-        "Description": "In order to show how to use FeatureContext\r\nAs a SpecFlow evangelist\r\nI want to write some simple scenarios with data in FeatureContext",
+        "Description": "\tIn order to show how to use FeatureContext\r\n\tAs a SpecFlow evangelist\r\n\tI want to write some simple scenarios with data in FeatureContext",
         "FeatureElements": [
           {
             "Name": "Store and retrive Person Marcus from FeatureContext Current",
@@ -1643,7 +1639,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\031ScenarioContext\\ScenarioContext.feature",
       "Feature": {
         "Name": "Scenario Context features",
-        "Description": "In order to show how to use ScenarioContext\r\nAs a SpecFlow evangelist\r\nI want to write some simple scenarios with data in ScenarioContext",
+        "Description": "\tIn order to show how to use ScenarioContext\r\n\tAs a SpecFlow evangelist\r\n\tI want to write some simple scenarios with data in ScenarioContext",
         "FeatureElements": [
           {
             "Name": "Store and retrive Person Marcus from ScenarioContext",
@@ -1793,7 +1789,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\02TagsAndHooks\\TagDemo.feature",
       "Feature": {
         "Name": "Tag demonstrator",
-        "Description": "In order to show the capabilities of tags in SpecFlow\r\nAs a SpecFlow evanglist\r\nI want to write scenarios that has tags and show their usage in code",
+        "Description": "\tIn order to show the capabilities of tags in SpecFlow\r\n\tAs a SpecFlow evanglist\r\n\tI want to write scenarios that has tags and show their usage in code",
         "FeatureElements": [
           {
             "Name": "Ignored scenario",
@@ -1960,7 +1956,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\02TagsAndHooks\\Hooks.feature",
       "Feature": {
         "Name": "Addition",
-        "Description": "In order to explain the order in which hooks are run\r\nAs a SpecFlow evanglist\r\nI wan to  be able to hook into pre and post conditions in SpecFlow",
+        "Description": "\tIn order to explain the order in which hooks are run\r\n\tAs a SpecFlow evanglist\r\n\tI wan to  be able to hook into pre and post conditions in SpecFlow",
         "FeatureElements": [
           {
             "Name": "Hooking into pre conditions for Test Runs in SpecFlow",
@@ -2083,7 +2079,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\01TestRunner\\TestRunnerIsNotImportant.feature",
       "Feature": {
         "Name": "The test runner is not (very) important",
-        "Description": "In order to show that the test runner is just for the autogenerated stuff in SpecFlow  \r\nAs a SpecFlow evanglist  \r\nI want to be able to call my steps in the same manner inspite of the testrunner configured",
+        "Description": "\tIn order to show that the test runner is just for the autogenerated stuff in SpecFlow  \r\n\tAs a SpecFlow evanglist  \r\n\tI want to be able to call my steps in the same manner inspite of the testrunner configured  ",
         "FeatureElements": [
           {
             "Name": "A couple of simple steps",
@@ -2127,7 +2123,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\00BasicGherkin\\BasicGherkin.feature",
       "Feature": {
         "Name": "Showing basic gherkin syntax",
-        "Description": "In order to see that gherkin is a very simple langauge  \r\nAs a SpecFlow evangelist  \r\nI want to show that basic syntax  \r\n\r\n![Test Image](test.jpg)",
+        "Description": "\tIn order to see that gherkin is a very simple langauge  \r\n\tAs a SpecFlow evangelist  \r\n\tI want to show that basic syntax  \r\n\r\n\t![Test Image](test.jpg)",
         "FeatureElements": [
           {
             "Name": "Simple GWT",
@@ -2212,7 +2208,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\Trigonometry.feature",
       "Feature": {
         "Name": "Trigonometry",
-        "Description": "In order to avoid perform more advanced calculations\r\nAs a math idiot\r\nI want to be able to use trigonometric functions",
+        "Description": "\tIn order to avoid perform more advanced calculations\r\n\tAs a math idiot\r\n\tI want to be able to use trigonometric functions",
         "FeatureElements": [
           {
             "Name": "Sine",
@@ -2317,7 +2313,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\Arithmetic.feature",
       "Feature": {
         "Name": "Arithmetic",
-        "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be able to perform arithmetic on the calculator",
+        "Description": "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be able to perform arithmetic on the calculator",
         "FeatureElements": [
           {
             "Name": "Add two numbers",
@@ -2470,7 +2466,7 @@ jsonPWrapper ({
   ],
   "Configuration": {
     "SutName": "Pickles",
-    "SutVersion": "1.2.3",
-    "GeneratedOn": "6 Oktober 2015 11:23:49"
+    "SutVersion": "2.0.0",
+    "GeneratedOn": "3 November 2015 16:26:30"
   }
 });

@@ -251,30 +251,37 @@ $(document).ready(function() {
       <div id="feature">
         <h1>Sample Markdown Feature</h1>
         <div class="description">
-          <h1>Header 1</h1>
-          <h2>Header 2</h2>
-          <p>This is a <em>significant</em> word</p>
-          <ol>
-            <li>Ordered #1</li>
-            <li>Ordered #2</li>
-            <li>
-              <p>Ordered #3</p>
-            </li>
-            <li>
-              <p>Unordered #1 </p>
-            </li>
-            <li>Unordered #2</li>
-            <li>Unordered #3 	</li>
-          </ol>
-          <p>Horizontal Rule:  
-</p>
-          <hr />
-          <p>Table example:<br />
+          <pre>
+            <code>Header 1
+========
+
+Header 2
+--------
+
+This is a *significant* word
+
+1. Ordered #1
+2. Ordered #2
+3. Ordered #3
+
+- Unordered #1 
+- Unordered #2
+- Unordered #3  
+
+Horizontal Rule:  
+- - -
+
+Table example:  
 | First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | </p>
-          <hr />
+</code>
+          </pre>
+          <p>	| ------------- | ------------- |
+	| Content Cell  | Content Cell  |
+	| Content Cell  | Content Cell  | </p>
+          <pre>
+            <code>- - -
+</code>
+          </pre>
           <p>Including a picture: <img src="./image.png" /></p>
         </div>
         <ul id="scenarios">
@@ -282,7 +289,10 @@ $(document).ready(function() {
             <div class="scenario-heading">
               <h2></h2>
               <div class="description">
-                <p>This is the <em>coolest</em> background</p>
+                <pre>
+                  <code>    This is the *coolest* background
+</code>
+                </pre>
               </div>
             </div>
             <div class="steps">
@@ -298,16 +308,23 @@ $(document).ready(function() {
             <div class="scenario-heading">
               <h2>Sample Markdown Scenario Example</h2>
               <div class="description">
-                <p>This is <strong>important</strong> text</p>
-                <p>Code Block:<br /><code>var x = 2;</code></p>
-                <dl>
-                  <dt>Apple</dt>
-                  <dd>Pomaceous fruit of plants of the genus Malus in 
-the family Rosaceae.</dd>
-                  <dd>An American computer company.</dd>
-                  <dt>Orange</dt>
-                  <dd>The fruit of an evergreen tree of the genus Citrus.</dd>
-                </dl>
+                <pre>
+                  <code>    This is **important** text
+
+    Code Block:  
+    ```
+    var x = 2;
+    ```
+
+    Apple
+    :   Pomaceous fruit of plants of the genus Malus in 
+        the family Rosaceae.
+    :   An American computer company.
+
+    Orange
+    :   The fruit of an evergreen tree of the genus Citrus.
+</code>
+                </pre>
               </div>
             </div>
             <div class="steps">
@@ -324,9 +341,12 @@ the family Rosaceae.</dd>
               <h2>Sample Markdown Scenario Outline Example</h2>
               <p class="tags">Tags: <span>@AddingATag</span></p>
               <div class="description">
-                <p>This is <a href="https://github.com/picklesdoc/pickles/wiki" title="Pickles">an example link to pickles</a> inline link.</p>
-                <p>
-                  <a href="https://github.com/picklesdoc/pickles/wiki">This link to pickles</a> has no title attribute.</p>
+                <pre>
+                  <code>    This is [an example link to pickles](https://github.com/picklesdoc/pickles/wiki "Pickles") inline link.
+
+    [This link to pickles](https://github.com/picklesdoc/pickles/wiki) has no title attribute.
+</code>
+                </pre>
               </div>
             </div>
             <div class="steps">
@@ -341,7 +361,10 @@ the family Rosaceae.</dd>
               <div class="examples">
                 <h3>Examples: </h3>
                 <div class="description">
-                  <p>This <strong>message</strong> is important too and is for an <em>Example</em> table.</p>
+                  <pre>
+                    <code>        This __message__ is important too and is for an *Example* table.
+</code>
+                  </pre>
                 </div>
                 <div class="table_container">
                   <table class="datatable">
@@ -365,9 +388,9 @@ the family Rosaceae.</dd>
         </ul>
       </div>
       <div id="footer">
-        <p>Test results generated for: Pickles, version 1.2.3</p>
-        <p>Generated on: 6 Oktober 2015 11:23:49</p>
-        <p>Produced by Pickles, version 1.2.3.0</p>
+        <p>Test results generated for: Pickles, version 2.0.0</p>
+        <p>Generated on: 3 November 2015 16:26:29</p>
+        <p>Produced by Pickles, version 2.0.0.0</p>
       </div>
     </div>
   </body>
