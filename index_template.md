@@ -1,5 +1,9 @@
 # Pickles - The Open Source Living Documentation Generator
 
+## Version 2 has been released!
+
+Version 2 needs .NET 4.5 - this may be a breaking change for some, but the download sizes are much smaller now. Pickles should run faster too.
+
 ![](./Images/download.png)
 
 Each runner has a link when you can find download information:

@@ -1,5 +1,9 @@
 # Pickles - The Open Source Living Documentation Generator
 
+## Version 2 has been released!
+
+Version 2 needs .NET 4.5 - this may be a breaking change for some, but the download sizes are much smaller now. Pickles should run faster too.
+
 ![](./Images/download.png)
 
 Each runner has a link when you can find download information:
@@ -9,7 +13,7 @@ Each runner has a link when you can find download information:
 * [PowerShell](http://www.nuget.org/packages/Pickles/)
 * [MSBuild](http://www.nuget.org/packages/Pickles.MSBuild/)
 
-If you prefer to download the .zip files, you can so from the [Github release page](https://github.com/picklesdoc/pickles/releases/tag/v1.2.2).
+If you prefer to download the .zip files, you can so from the [Github release page](https://github.com/picklesdoc/pickles/releases/tag/v2.0.0).
 
 ## We need your help!
 
