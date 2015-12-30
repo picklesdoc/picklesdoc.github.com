@@ -2466,7 +2466,7 @@ jsonPWrapper ({
   ],
   "Configuration": {
     "SutName": "Pickles",
-    "SutVersion": "2.0.4",
-    "GeneratedOn": "27 Dezember 2015 14:10:40"
+    "SutVersion": "2.1.0",
+    "GeneratedOn": "30 Dezember 2015 17:51:47"
   }
 });

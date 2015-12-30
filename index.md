@@ -11,7 +11,7 @@ Each runner has a link when you can find download information:
 * [PowerShell](http://www.nuget.org/packages/Pickles/)
 * [MSBuild](http://www.nuget.org/packages/Pickles.MSBuild/)
 
-If you prefer to download the .zip files, you can so from the [Github release page](https://github.com/picklesdoc/pickles/releases/tag/v2.0.4).
+If you prefer to download the .zip files, you can so from the [Github release page](https://github.com/picklesdoc/pickles/releases/tag/v2.1.0).
 
 ## We need your help!
 
