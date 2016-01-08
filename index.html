@@ -7,11 +7,23 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="/Content/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/Content/bootswatch.flatly.min.css"/>
+
+    <style type="text/css">
+         @media (max-width: 992px) {
+             a.forkmeongithub {
+                 display: none;
+             }
+         }
+    </style>
 </head>
 
 <body>
-<nav class="navbar navbar-default">
+<a class="forkmeongithub" href="https://github.com/picklesdoc/pickles">
+    <img style="position: absolute; top: 0; right: 0; border: 0; z-index: 2000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
+</a>
+
+<nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -35,89 +47,103 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<div class="container">
 
-<div class="page-header">
-    <h1>Pickles <small> &ndash; the Open Source Living Documentation Generator</small>
-    </h1>
+    <div class="page-header">
+        <h1>
+            Pickles <small> &ndash; the Open Source Living Documentation Generator</small>
+        </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#version_2_has_been_released">Version 2 has been released!</a></li>
+                    <li class="list-group-item"><a href="#we_need_your_help">We need your help!</a></li>
+                    <li class="list-group-item"><a href="#release_notes">Release Notes</a></li>
+                    <li class="list-group-item"><a href="#example_output">Example Output</a></li>
+                    <li class="list-group-item"><a href="#source_code">Source Code</a></li>
+                    <li class="list-group-item"><a href="#previous_versions">Previous Versions</a></li>
+                    <li class="list-group-item"><a href="#copyright_and_licences">Copyright and Licenses</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-sm-9">
+
+            <h2 id="version_2_has_been_released">Version 2 has been released!</h2>
+
+            <p class="lead">Version 2 needs .NET 4.5 - this may be a breaking change for some, but the download sizes are much smaller now. Pickles should run faster too.</p>
+
+            <p>Each runner has a link when you can find download information:</p>
+
+            <ul>
+                <li><a href="https://chocolatey.org/packages/pickles">Command Line</a></li>
+                <li><a href="https://chocolatey.org/packages/picklesui">GUI</a></li>
+                <li><a href="http://www.nuget.org/packages/Pickles/">PowerShell</a></li>
+                <li><a href="http://www.nuget.org/packages/Pickles.MSBuild/">MSBuild</a></li>
+            </ul>
+
+            <p>
+                If you prefer to download the .zip files, you can so from the <a href="https://github.com/picklesdoc/pickles/releases/tag/v2.1.0">Github release page</a>.
+            </p>
+
+            <h2 id="we_need_your_help">We need your help!</h2>
+
+            <p>
+                We would like to know how we're doing with Pickles and what we need to focus on. Please take a few minutes to answer this <a href="http://3348403.polldaddy.com/s/pickles">survey with 14 short questions.</a> Many thanks!
+            </p>
+
+            <h2 id="release_notes">Release Notes</h2>
+
+            <p>
+                Check out the <a href="https://github.com/picklesdoc/pickles/releases">release notes</a> to see what's new.
+            </p>
+
+            <h2 id="example_output">Example Output</h2>
+
+            <p>Pickles can generate your documentation in the following formats:</p>
+            <ul>
+                <li><a href="./Output/DHtml/Index.html">HTML site with search capabilities</a></li>
+                <li><a href="./Output/Html/index.html">Static HTML site</a></li>
+                <li><a href="./Output/JSON/pickledFeatures.json">JSON raw datas</a></li>
+                <li><a href="./Output/Word/Pickles.docx">Word (.docx)</a></li>
+                <li><a href="./Output/Excel/features.xlsx">Excel</a></li>
+            </ul>
+            <h2 id="source_code">Source Code</h2>
+
+            <a href="https://ci.appveyor.com/project/dirkrombauts/pickles-715"><img class="img-responsive img-thumbnail" src="https://ci.appveyor.com/api/projects/status/rqt59hq1m2jt2a5v" alt="Build status"></a>
+
+            <ul>
+                <li><a href="https://github.com/picklesdoc/pickles/zipball/master">Download ZIP File</a></li>
+                <li><a href="https://github.com/picklesdoc/pickles/tarball/master">Download TAR Ball</a></li>
+            </ul>
+
+
+
+            <h2 id="previous_versions">Previous Versions</h2>
+
+            <p>
+                You can find previous versions of Pickles on the <a href="https://github.com/picklesdoc/pickles/releases">Release page on GitHub</a>.
+            </p>
+
+            <h2 id="copyright_and_licences">Copyright and Licenses</h2>
+
+            <p>Pickles is copyrighted:</p>
+
+            <ul>
+                <li>Jeffrey Cameron 2011-2012</li>
+                <li>PicklesDoc and community contributors 2012-present</li>
+            </ul>
+            <p>
+                Pickles is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+            </p>
+
+            <p>Pickles uses several open source libraries that are governed by their own licenses.</p>
+        </div>
+    </div>
 </div>
-
-<div class="panel panel-default">
-    <ul class="list-group">
-        <li class="list-group-item"><a href="#">Version 2 has been released!</a></li>
-        <li class="list-group-item"><a href="#">We need your help!</a></li>
-        <li class="list-group-item"><a href="#">Release Notes</a></li>
-        <li class="list-group-item"><a href="#">Example Output</a></li>
-        <li class="list-group-item"><a href="#">Source Code</a></li>
-        <li class="list-group-item"><a href="#">Previous Versions</a></li>
-        <li class="list-group-item"><a href="#">Copyright and Licenses</a></li>
-    </ul>
-</div>
-
-<h2>Version 2 has been released!</h2>
-
-<p>Version 2 needs .NET 4.5 - this may be a breaking change for some, but the download sizes are much smaller now. Pickles should run faster too.</p>
-
-<p>Each runner has a link when you can find download information:</p>
-
-<ul>
-    <li><a href="https://chocolatey.org/packages/pickles">Command Line</a></li>
-    <li><a href="https://chocolatey.org/packages/picklesui">GUI</a></li>
-    <li><a href="http://www.nuget.org/packages/Pickles/">PowerShell</a></li>
-    <li><a href="http://www.nuget.org/packages/Pickles.MSBuild/">MSBuild</a></li>
-</ul>
-
-<p>If you prefer to download the .zip files, you can so from the <a href="https://github.com/picklesdoc/pickles/releases/tag/v2.1.0">Github release page</a>.
-</p>
-
-<h2>We need your help!</h2>
-
-<p>We would like to know how we're doing with Pickles and what we need to focus on. Please take a few minutes to answer this <a href="http://3348403.polldaddy.com/s/pickles">survey with 14 short questions.</a> Many thanks!
-</p>
-
-<h2>Release Notes</h2>
-
-<p>Check out the <a href="https://github.com/picklesdoc/pickles/releases">release notes</a> to see what's new.
-</p>
-
-<h2>Example Output</h2>
-
-<p>Pickles can generate your documentation in the following formats:</p>
-<ul>
-    <li><a href="./Output/DHtml/Index.html">HTML site with search capabilities</a></li>
-    <li><a href="./Output/Html/index.html">Static HTML site</a></li>
-    <li><a href="./Output/JSON/pickledFeatures.json">JSON raw datas</a></li>
-    <li><a href="./Output/Word/Pickles.docx">Word (.docx)</a></li>
-    <li><a href="./Output/Excel/features.xlsx">Excel</a></li>
-</ul>
-<h2>Source Code</h2>
-
-<a href="https://ci.appveyor.com/project/dirkrombauts/pickles-715"><img class="img-responsive img-thumbnail" src="https://ci.appveyor.com/api/projects/status/rqt59hq1m2jt2a5v" alt="Build status"></a>
-
-<ul>
-    <li><a href="https://github.com/picklesdoc/pickles/zipball/master">Download ZIP File</a></li>
-    <li><a href="https://github.com/picklesdoc/pickles/tarball/master">Download TAR Ball</a></li>
-</ul>
-
-
-
-<h2>Previous Versions</h2>
-
-<p>You can find previous versions of Pickles on the <a href="https://github.com/picklesdoc/pickles/releases">Release page on GitHub</a>.
-</p>
-
-<h2>Copyright and Licenses</h2>
-
-<p>Pickles is copyrighted:</p>
-
-<ul>
-    <li>Jeffrey Cameron 2011-2012</li>
-    <li>PicklesDoc and community contributors 2012-present</li>
-</ul>
-<p>Pickles is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
-</p>
-
-<p>Pickles uses several open source libraries that are governed by their own licenses.</p>
-
 <script src="/Scripts/jquery-2.1.4.min.js"></script>
 <script src="/Scripts/bootstrap.min.js"></script>
 </body>
