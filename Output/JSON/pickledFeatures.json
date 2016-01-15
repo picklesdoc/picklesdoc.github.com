@@ -196,11 +196,11 @@
       "RelativeFolder": "Features\\14MarkdownExample\\MarkdownExamples.feature",
       "Feature": {
         "Name": "Sample Markdown Feature",
-        "Description": "\tHeader 1\r\n\t========\r\n\r\n\tHeader 2\r\n\t--------\r\n\r\n\tThis is a *significant* word\r\n\r\n\t1. Ordered #1\r\n\t2. Ordered #2\r\n\t3. Ordered #3\r\n\r\n\t- Unordered #1 \r\n\t- Unordered #2\r\n\t- Unordered #3 \t\r\n\r\n\tHorizontal Rule:  \r\n\t- - -\r\n\r\n\tTable example:  \r\n\t| First Header  | Second Header |\r\n\t| ------------- | ------------- |\r\n\t| Content Cell  | Content Cell  |\r\n\t| Content Cell  | Content Cell  | \r\n\r\n\t- - -\r\n\r\nIncluding a picture: ![](./image.png)",
+        "Description": "Header 1\r\n========\r\n\r\nHeader 2\r\n--------\r\n\r\nThis is a *significant* word\r\n\r\n1. Ordered #1\r\n2. Ordered #2\r\n3. Ordered #3\r\n\r\n- Unordered #1\r\n- Unordered #2\r\n- Unordered #3\r\n\r\nHorizontal Rule:\r\n- - -\r\n\r\nTable example:\r\n\r\n| First Header  | Second Header |\r\n| ------------- | ------------- |\r\n| Content Cell  | Content Cell  |\r\n| Content Cell  | Content Cell  |\r\n\r\n- - -\r\n\r\nIncluding a picture: ![](./image.png)",
         "FeatureElements": [
           {
             "Name": "Sample Markdown Scenario Example",
-            "Description": "\t\tThis is **important** text\r\n\t\r\n\t\tCode Block:  \r\n\t\t```\r\n\t\tvar x = 2;\r\n\t\t```\r\n\r\n\t\tApple\r\n\t\t:   Pomaceous fruit of plants of the genus Malus in \r\n\t\t\tthe family Rosaceae.\r\n\t\t:   An American computer company.\r\n\r\n\t\tOrange\r\n\t\t:   The fruit of an evergreen tree of the genus Citrus.",
+            "Description": "This is **important** text\r\n\r\nCode Block:\r\n\r\n```\r\nvar x = 2;\r\n```\r\n\r\nApple\r\n:   Pomaceous fruit of plants of the genus Malus in\r\n    the family Rosaceae.\r\n:   An American computer company.\r\n\r\nOrange\r\n:   The fruit of an evergreen tree of the genus Citrus.",
             "Steps": [
               {
                 "Keyword": "Given",
@@ -223,7 +223,7 @@
             "Examples": [
               {
                 "Name": "",
-                "Description": "\t\t\tThis __message__ is important too and is for an *Example* table.",
+                "Description": "This __message__ is important too and is for an *Example* table.",
                 "TableArgument": {
                   "HeaderRow": [
                     "test",
@@ -239,7 +239,7 @@
               }
             ],
             "Name": "Sample Markdown Scenario Outline Example",
-            "Description": "\t\tThis is [an example link to pickles](https://github.com/picklesdoc/pickles/wiki \"Pickles\") inline link.\r\n\r\n\t\t[This link to pickles](https://github.com/picklesdoc/pickles/wiki) has no title attribute.",
+            "Description": "This is [an example link to pickles](https://github.com/picklesdoc/pickles/wiki \"Pickles\") inline link.\r\n\r\n[This link to pickles](https://github.com/picklesdoc/pickles/wiki) has no title attribute.",
             "Steps": [
               {
                 "Keyword": "Given",
@@ -263,7 +263,7 @@
         ],
         "Background": {
           "Name": "",
-          "Description": "\t\tThis is the *coolest* background",
+          "Description": "This is the *coolest* background",
           "Steps": [
             {
               "Keyword": "Given",
@@ -2123,7 +2123,7 @@
       "RelativeFolder": "Features\\00BasicGherkin\\BasicGherkin.feature",
       "Feature": {
         "Name": "Showing basic gherkin syntax",
-        "Description": "\tIn order to see that gherkin is a very simple langauge  \r\n\tAs a SpecFlow evangelist  \r\n\tI want to show that basic syntax  \r\n\r\n\t![Test Image](test.jpg)",
+        "Description": "In order to see that gherkin is a very simple langauge\r\nAs a SpecFlow evangelist\r\nI want to show that basic syntax\r\n\r\n![Test Image](test.jpg)",
         "FeatureElements": [
           {
             "Name": "Simple GWT",
@@ -2466,7 +2466,7 @@
   ],
   "Configuration": {
     "SutName": "Pickles",
-    "SutVersion": "2.1.0",
-    "GeneratedOn": "30 Dezember 2015 17:51:50"
+    "SutVersion": "2.2.0",
+    "GeneratedOn": "15 Jänner 2016 18:57:27"
   }
 }
