@@ -2123,7 +2123,7 @@ jsonPWrapper ({
       "RelativeFolder": "Features\\00BasicGherkin\\BasicGherkin.feature",
       "Feature": {
         "Name": "Showing basic gherkin syntax",
-        "Description": "In order to see that gherkin is a very simple langauge\r\nAs a SpecFlow evangelist\r\nI want to show that basic syntax\r\n\r\n![Test Image](test.jpg)",
+        "Description": "In order to see that gherkin is a very simple language\r\nAs a SpecFlow evangelist\r\nI want to show that basic syntax\r\n\r\n![Test Image](test.jpg)",
         "FeatureElements": [
           {
             "Name": "Simple GWT",
@@ -2467,6 +2467,6 @@ jsonPWrapper ({
   "Configuration": {
     "SutName": "Pickles",
     "SutVersion": "2.3.0",
-    "GeneratedOn": "27 Jänner 2016 17:07:46"
+    "GeneratedOn": "15 Februar 2016 15:36:07"
   }
 });
