@@ -2313,7 +2313,7 @@
       "RelativeFolder": "Features\\Arithmetic.feature",
       "Feature": {
         "Name": "Arithmetic",
-        "Description": "In order to avoid silly mistakes\r\nAs a math idiot  \r\nI want to be able to perform arithmetic on the calculator",
+        "Description": "In order to avoid silly mistakes  \r\nAs a math idiot\r\nI want to be able to perform arithmetic on the calculator",
         "FeatureElements": [
           {
             "Name": "Add two numbers",
@@ -2467,6 +2467,6 @@
   "Configuration": {
     "SutName": "Pickles",
     "SutVersion": "2.4.1",
-    "GeneratedOn": "7 März 2016 17:37:00"
+    "GeneratedOn": "7 März 2016 17:41:27"
   }
 }
