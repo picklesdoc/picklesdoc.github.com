@@ -2313,7 +2313,7 @@
       "RelativeFolder": "Features\\Arithmetic.feature",
       "Feature": {
         "Name": "Arithmetic",
-        "Description": "In order to avoid silly mistakes  \r\nAs a math idiot  \r\nI want to be able to perform arithmetic on the calculator",
+        "Description": "In order to avoid silly mistakes  \r\nAs a math idiot  \r\nI want to be able to perform arithmetic on the calculator\r\n\r\nWhen $a \\ne 0$, there are two solutions to $\\(ax^2 + bx + c = 0\\)$ and they are\r\n$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$",
         "FeatureElements": [
           {
             "Name": "Add two numbers",
@@ -2464,9 +2464,162 @@
       }
     }
   ],
+  "Summary": {
+    "Tags": [
+      {
+        "Tag": "@showUpInScenarioInfo",
+        "Total": 3,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 3
+      },
+      {
+        "Tag": "@andThisToo",
+        "Total": 3,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 3
+      },
+      {
+        "Tag": "@allAboutTags",
+        "Total": 5,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 5
+      },
+      {
+        "Tag": "@important",
+        "Total": 5,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 5
+      },
+      {
+        "Tag": "@workflow",
+        "Total": 1,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 1
+      },
+      {
+        "Tag": "@slow",
+        "Total": 1,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 1
+      },
+      {
+        "Tag": "@AddingATag",
+        "Total": 1,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 1
+      },
+      {
+        "Tag": "@mytag",
+        "Total": 1,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 1
+      },
+      {
+        "Tag": "@nestedFolders",
+        "Total": 1,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 1
+      },
+      {
+        "Tag": "@ignore",
+        "Total": 2,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 2
+      },
+      {
+        "Tag": "@showingErrorHandling",
+        "Total": 1,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 1
+      },
+      {
+        "Tag": "@testTag1",
+        "Total": 3,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 3
+      },
+      {
+        "Tag": "@testTag2",
+        "Total": 1,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 1
+      },
+      {
+        "Tag": "@testTag3",
+        "Total": 2,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 2
+      },
+      {
+        "Tag": "@trigonometric",
+        "Total": 3,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 3
+      },
+      {
+        "Tag": "@fast",
+        "Total": 7,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 7
+      },
+      {
+        "Tag": "@arithmetic",
+        "Total": 4,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 4
+      }
+    ],
+    "Folders": [
+      {
+        "Folder": "Features",
+        "Total": 53,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 53
+      }
+    ],
+    "NotTestedFolders": [
+      {
+        "Folder": "Features",
+        "Total": 0,
+        "Passing": 0,
+        "Failing": 0,
+        "Inconclusive": 0
+      }
+    ],
+    "Scenarios": {
+      "Total": 53,
+      "Passing": 0,
+      "Failing": 0,
+      "Inconclusive": 53
+    },
+    "Features": {
+      "Total": 22,
+      "Passing": 0,
+      "Failing": 0,
+      "Inconclusive": 22
+    }
+  },
   "Configuration": {
     "SutName": "Pickles",
-    "SutVersion": "2.4.1",
-    "GeneratedOn": "7 März 2016 17:45:43"
+    "SutVersion": "2.5.0",
+    "GeneratedOn": "21 März 2016 13:21:53"
   }
 }

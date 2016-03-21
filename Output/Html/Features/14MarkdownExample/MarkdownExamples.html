@@ -251,21 +251,19 @@ $(document).ready(function() {
       <div id="feature">
         <h1>Sample Markdown Feature</h1>
         <div class="description">
-          <h1>Header 1</h1>
-          <h2>Header 2</h2>
+          <h1 id="header-1">Header 1</h1>
+          <h2 id="header-2">Header 2</h2>
           <p>This is a <em>significant</em> word</p>
           <ol>
             <li>Ordered #1</li>
             <li>Ordered #2</li>
-            <li>
-              <p>Ordered #3</p>
-            </li>
-            <li>
-              <p>Unordered #1</p>
-            </li>
+            <li>Ordered #3</li>
+          </ol>
+          <ul>
+            <li>Unordered #1</li>
             <li>Unordered #2</li>
             <li>Unordered #3</li>
-          </ol>
+          </ul>
           <p>Horizontal Rule:</p>
           <hr />
           <p>Table example:</p>
@@ -288,7 +286,7 @@ $(document).ready(function() {
             </tbody>
           </table>
           <hr />
-          <p>Including a picture: <img src="./image.png" /></p>
+          <p>Including a picture: <img src="./image.png" alt="" /></p>
         </div>
         <ul id="scenarios">
           <li class="scenario">
@@ -313,19 +311,16 @@ $(document).ready(function() {
               <div class="description">
                 <p>This is <strong>important</strong> text</p>
                 <p>Code Block:</p>
-                <p>
-                  <code>var x = 2;</code>
-                </p>
-                <dl>
-                  <dt>Apple</dt>
-                  <dd>
-                    <p>Pomaceous fruit of plants of the genus Malus in
-the family Rosaceae.</p>
-                  </dd>
-                  <dd>An American computer company.</dd>
-                  <dt>Orange</dt>
-                  <dd>The fruit of an evergreen tree of the genus Citrus.</dd>
-                </dl>
+                <pre>
+                  <code>var x = 2;
+</code>
+                </pre>
+                <p>Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+:   An American computer company.</p>
+                <p>Orange
+:   The fruit of an evergreen tree of the genus Citrus.</p>
               </div>
             </div>
             <div class="steps">
@@ -385,9 +380,9 @@ the family Rosaceae.</p>
         </ul>
       </div>
       <div id="footer">
-        <p>Test results generated for: Pickles, version 2.4.1</p>
-        <p>Generated on: 7 März 2016 17:45:40</p>
-        <p>Produced by Pickles, version 2.4.1.0</p>
+        <p>Test results generated for: Pickles, version 2.5.0</p>
+        <p>Generated on: 21 März 2016 13:21:48</p>
+        <p>Produced by Pickles, version 2.5.0.0</p>
       </div>
     </div>
   </body>
