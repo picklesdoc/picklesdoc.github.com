@@ -2621,17 +2621,21 @@
       "RelativeFolder": "Features\\Arithmetic.feature",
       "Feature": {
         "Name": "Arithmetic",
-        "Description": "In order to avoid silly mistakes  \r\nAs a math idiot  \r\nI want to be able to perform arithmetic on the calculator\r\n\r\nWhen $a \\ne 0$, there are two solutions to $\\(ax^2 + bx + c = 0\\)$ and they are\r\n$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$",
+        "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be able to perform arithmetic on the calculator\r\n\r\nWhen $a \\ne 0$, there are two solutions to $\\(ax^2 + bx + c = 0\\)$ and they are\r\n$$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.$$",
         "FeatureElements": [
           {
             "Name": "Add two numbers",
-            "Description": "",
+            "Description": "$50 + 70 = 120$",
             "Steps": [
               {
                 "Keyword": "Given",
                 "NativeKeyword": "Given ",
                 "Name": "I have entered 50 into the calculator",
-                "StepComments": [],
+                "StepComments": [
+                  {
+                    "Text": "# In the DHTML version, the description will be rendered with mathematical formulas if the experimental features are enabled."
+                  }
+                ],
                 "AfterLastStepComments": []
               },
               {
@@ -2960,6 +2964,6 @@
   "Configuration": {
     "SutName": "Pickles",
     "SutVersion": "2.6.0",
-    "GeneratedOn": "12 April 2016 13:20:05"
+    "GeneratedOn": "12 April 2016 15:05:08"
   }
 }
