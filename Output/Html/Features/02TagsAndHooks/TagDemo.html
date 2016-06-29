@@ -261,7 +261,7 @@ I want to write scenarios that has tags and show their usage in code
         </div>
         <ul id="scenarios">
           <li class="scenario">
-            <div class="scenario-heading">
+            <div class="scenario-heading" id="ignored-scenario">
               <h2>Ignored scenario</h2>
               <p class="tags">Tags: <span>@allAboutTags</span>, <span>@ignore</span>, <span>@important</span></p>
             </div>
@@ -277,9 +277,12 @@ I want to write scenarios that has tags and show their usage in code
                   <span class="keyword">And </span>the missing step definitions are not reported</li>
               </ul>
             </div>
+            <a class="scenario-link" href="javascript:showImageLink('ignored-scenario')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
           </li>
           <li class="scenario">
-            <div class="scenario-heading">
+            <div class="scenario-heading" id="a-scenario-without-tags">
               <h2>A scenario without tags</h2>
               <p class="tags">Tags: <span>@allAboutTags</span>, <span>@important</span></p>
             </div>
@@ -293,9 +296,12 @@ I want to write scenarios that has tags and show their usage in code
                   <span class="keyword">Then </span>before scenario hook with '' is run</li>
               </ul>
             </div>
+            <a class="scenario-link" href="javascript:showImageLink('a-scenario-without-tags')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
           </li>
           <li class="scenario">
-            <div class="scenario-heading">
+            <div class="scenario-heading" id="a-scenario-with-1-tag">
               <h2>A scenario with 1 tag</h2>
               <p class="tags">Tags: <span>@allAboutTags</span>, <span>@important</span>, <span>@testTag1</span></p>
             </div>
@@ -309,9 +315,12 @@ I want to write scenarios that has tags and show their usage in code
                   <span class="keyword">Then </span>before scenario hook with 'testTag1' is run</li>
               </ul>
             </div>
+            <a class="scenario-link" href="javascript:showImageLink('a-scenario-with-1-tag')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
           </li>
           <li class="scenario">
-            <div class="scenario-heading">
+            <div class="scenario-heading" id="a-scenario-with-3-tags">
               <h2>A scenario with 3 tags</h2>
               <p class="tags">Tags: <span>@allAboutTags</span>, <span>@important</span>, <span>@testTag1</span>, <span>@testTag2</span>, <span>@testTag3</span></p>
             </div>
@@ -325,9 +334,12 @@ I want to write scenarios that has tags and show their usage in code
                   <span class="keyword">Then </span>before scenario hook with 'testTag1, testTag2, testTag3' is run</li>
               </ul>
             </div>
+            <a class="scenario-link" href="javascript:showImageLink('a-scenario-with-3-tags')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
           </li>
           <li class="scenario">
-            <div class="scenario-heading">
+            <div class="scenario-heading" id="a-scenario-with-2-tags">
               <h2>A scenario with 2 tags</h2>
               <p class="tags">Tags: <span>@allAboutTags</span>, <span>@important</span>, <span>@testTag1</span>, <span>@testTag3</span></p>
             </div>
@@ -341,13 +353,16 @@ I want to write scenarios that has tags and show their usage in code
                   <span class="keyword">Then </span>before scenario hook with 'testTag1, testTag3' is run</li>
               </ul>
             </div>
+            <a class="scenario-link" href="javascript:showImageLink('a-scenario-with-2-tags')" title="Copy scenario link to clipboard.">
+              <i class="icon-link"> </i>
+            </a>
           </li>
         </ul>
       </div>
       <div id="footer">
-        <p>Test results generated for: Pickles, version 2.7.0</p>
-        <p>Generated on: 14 Juni 2016 16:32:48</p>
-        <p>Produced by Pickles, version 2.7.0.0</p>
+        <p>Test results generated for: Pickles, version 2.8.0</p>
+        <p>Generated on: 29 Juni 2016 14:05:55</p>
+        <p>Produced by Pickles, version 2.8.0.0</p>
       </div>
     </div>
   </body>

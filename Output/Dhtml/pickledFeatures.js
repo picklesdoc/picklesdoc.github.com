@@ -8,6 +8,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Clear the screen",
+            "Slug": "clear-the-screen",
             "Description": "",
             "Steps": [
               {
@@ -68,6 +69,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Scenario with large data table",
+            "Slug": "scenario-with-large-data-table",
             "Description": "",
             "Steps": [
               {
@@ -214,6 +216,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Sample Markdown Scenario Example",
+            "Slug": "sample-markdown-scenario-example",
             "Description": "This is **important** text\r\n\r\nCode Block:\r\n\r\n```\r\nvar x = 2;\r\n```\r\n\r\nApple\r\n:   Pomaceous fruit of plants of the genus Malus in\r\n    the family Rosaceae.\r\n:   An American computer company.\r\n\r\nOrange\r\n:   The fruit of an evergreen tree of the genus Citrus.",
             "Steps": [
               {
@@ -257,6 +260,7 @@ jsonPWrapper ({
               }
             ],
             "Name": "Sample Markdown Scenario Outline Example",
+            "Slug": "sample-markdown-scenario-outline-example",
             "Description": "This is [an example link to pickles](https://github.com/picklesdoc/pickles/wiki \"Pickles\") inline link.\r\n\r\n[This link to pickles](https://github.com/picklesdoc/pickles/wiki) has no title attribute.",
             "Steps": [
               {
@@ -327,6 +331,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Mutliline Output",
+            "Slug": "mutliline-output",
             "Description": "",
             "Steps": [
               {
@@ -380,6 +385,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Nested - Add two numbers",
+            "Slug": "nested---add-two-numbers",
             "Description": "",
             "Steps": [
               {
@@ -439,6 +445,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Feature with no context",
+            "Slug": "feature-with-no-context",
             "Description": "",
             "Steps": [
               {
@@ -464,6 +471,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Feature with a single context",
+            "Slug": "feature-with-a-single-context",
             "Description": "",
             "Steps": [
               {
@@ -489,6 +497,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Feature with multiple contexts",
+            "Slug": "feature-with-multiple-contexts",
             "Description": "",
             "Steps": [
               {
@@ -514,6 +523,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Feature with recursive contexts",
+            "Slug": "feature-with-recursive-contexts",
             "Description": "",
             "Steps": [
               {
@@ -546,6 +556,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Feature with a dependent context",
+            "Slug": "feature-with-a-dependent-context",
             "Description": "",
             "Steps": [
               {
@@ -596,6 +607,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Steps with non-string arguments",
+            "Slug": "steps-with-non-string-arguments",
             "Description": "",
             "Steps": [
               {
@@ -646,6 +658,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Log in",
+            "Slug": "log-in",
             "Description": "",
             "Steps": [
               {
@@ -685,6 +698,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Do something meaningful",
+            "Slug": "do-something-meaningful",
             "Description": "",
             "Steps": [
               {
@@ -735,6 +749,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Checking number for evenness",
+            "Slug": "checking-number-for-evenness",
             "Description": "",
             "Steps": [
               {
@@ -813,6 +828,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Summera 5 och 7 ska vara 12",
+            "Slug": "summera-5-och-7-ska-vara-12",
             "Description": "",
             "Steps": [
               {
@@ -870,6 +886,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "CompareToInstance",
+            "Slug": "comparetoinstance",
             "Description": "",
             "Steps": [
               {
@@ -992,6 +1009,7 @@ jsonPWrapper ({
           },
           {
             "Name": "CompareToSet",
+            "Slug": "comparetoset",
             "Description": "",
             "Steps": [
               {
@@ -1109,6 +1127,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Using tables",
+            "Slug": "using-tables",
             "Description": "",
             "Steps": [
               {
@@ -1185,6 +1204,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Using tables with SpecFlow Assist",
+            "Slug": "using-tables-with-specflow-assist",
             "Description": "",
             "Steps": [
               {
@@ -1261,6 +1281,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Creating a entity from field value",
+            "Slug": "creating-a-entity-from-field-value",
             "Description": "",
             "Steps": [
               {
@@ -1326,6 +1347,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Example of a wide table",
+            "Slug": "example-of-a-wide-table",
             "Description": "",
             "Steps": [
               {
@@ -1434,6 +1456,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Add 1 to the sum",
+            "Slug": "add-1-to-the-sum",
             "Description": "",
             "Steps": [
               {
@@ -1459,6 +1482,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Add 2 to the sum",
+            "Slug": "add-2-to-the-sum",
             "Description": "",
             "Steps": [
               {
@@ -1578,6 +1602,7 @@ jsonPWrapper ({
               }
             ],
             "Name": "Add two positive numbers with many examples",
+            "Slug": "add-two-positive-numbers-with-many-examples",
             "Description": "",
             "Steps": [
               {
@@ -1672,6 +1697,7 @@ jsonPWrapper ({
               }
             ],
             "Name": "Add two negative numbers with many examples",
+            "Slug": "add-two-negative-numbers-with-many-examples",
             "Description": "",
             "Steps": [
               {
@@ -1729,6 +1755,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Store and retrive Person Marcus from FeatureContext Current",
+            "Slug": "store-and-retrive-person-marcus-from-featurecontext-current",
             "Description": "",
             "Steps": [
               {
@@ -1754,6 +1781,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Showing information of the feature",
+            "Slug": "showing-information-of-the-feature",
             "Description": "",
             "Steps": [
               {
@@ -1828,6 +1856,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Store and retrive Person Marcus from ScenarioContext",
+            "Slug": "store-and-retrive-person-marcus-from-scenariocontext",
             "Description": "",
             "Steps": [
               {
@@ -1853,6 +1882,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Showing information of the scenario",
+            "Slug": "showing-information-of-the-scenario",
             "Description": "",
             "Steps": [
               {
@@ -1897,6 +1927,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Show the type of step we're currently on",
+            "Slug": "show-the-type-of-step-were-currently-on",
             "Description": "",
             "Steps": [
               {
@@ -1943,6 +1974,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Display error information in AfterScenario",
+            "Slug": "display-error-information-in-afterscenario",
             "Description": "",
             "Steps": [
               {
@@ -1964,6 +1996,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Pending step",
+            "Slug": "pending-step",
             "Description": "",
             "Steps": [
               {
@@ -2007,6 +2040,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Ignored scenario",
+            "Slug": "ignored-scenario",
             "Description": "",
             "Steps": [
               {
@@ -2048,6 +2082,7 @@ jsonPWrapper ({
           },
           {
             "Name": "A scenario without tags",
+            "Slug": "a-scenario-without-tags",
             "Description": "",
             "Steps": [
               {
@@ -2080,6 +2115,7 @@ jsonPWrapper ({
           },
           {
             "Name": "A scenario with 1 tag",
+            "Slug": "a-scenario-with-1-tag",
             "Description": "",
             "Steps": [
               {
@@ -2114,6 +2150,7 @@ jsonPWrapper ({
           },
           {
             "Name": "A scenario with 3 tags",
+            "Slug": "a-scenario-with-3-tags",
             "Description": "",
             "Steps": [
               {
@@ -2150,6 +2187,7 @@ jsonPWrapper ({
           },
           {
             "Name": "A scenario with 2 tags",
+            "Slug": "a-scenario-with-2-tags",
             "Description": "",
             "Steps": [
               {
@@ -2206,6 +2244,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Hooking into pre conditions for Test Runs in SpecFlow",
+            "Slug": "hooking-into-pre-conditions-for-test-runs-in-specflow",
             "Description": "",
             "Steps": [
               {
@@ -2231,6 +2270,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Hooking into pre conditions for Features in SpecFlow",
+            "Slug": "hooking-into-pre-conditions-for-features-in-specflow",
             "Description": "",
             "Steps": [
               {
@@ -2256,6 +2296,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Hooking into pre conditions for Scenarios in SpecFlow",
+            "Slug": "hooking-into-pre-conditions-for-scenarios-in-specflow",
             "Description": "",
             "Steps": [
               {
@@ -2281,6 +2322,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Hooking into pre conditions for ScenarioBlocks in SpecFlow",
+            "Slug": "hooking-into-pre-conditions-for-scenarioblocks-in-specflow",
             "Description": "",
             "Steps": [
               {
@@ -2306,6 +2348,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Hooking into pre conditions for Steps in SpecFlow",
+            "Slug": "hooking-into-pre-conditions-for-steps-in-specflow",
             "Description": "",
             "Steps": [
               {
@@ -2349,6 +2392,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "A couple of simple steps",
+            "Slug": "a-couple-of-simple-steps",
             "Description": "",
             "Steps": [
               {
@@ -2399,6 +2443,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Simple GWT",
+            "Slug": "simple-gwt",
             "Description": "",
             "Steps": [
               {
@@ -2431,6 +2476,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Using And and But",
+            "Slug": "using-and-and-but",
             "Description": "",
             "Steps": [
               {
@@ -2502,6 +2548,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Sine",
+            "Slug": "sine",
             "Description": "",
             "Steps": [
               {
@@ -2537,6 +2584,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Cosine",
+            "Slug": "cosine",
             "Description": "",
             "Steps": [
               {
@@ -2572,6 +2620,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Tangent",
+            "Slug": "tangent",
             "Description": "",
             "Steps": [
               {
@@ -2625,6 +2674,7 @@ jsonPWrapper ({
         "FeatureElements": [
           {
             "Name": "Add two numbers",
+            "Slug": "add-two-numbers",
             "Description": "$50 + 70 = 120$",
             "Steps": [
               {
@@ -2671,6 +2721,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Subtract two numbers",
+            "Slug": "subtract-two-numbers",
             "Description": "",
             "Steps": [
               {
@@ -2713,6 +2764,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Multiply two numbers",
+            "Slug": "multiply-two-numbers",
             "Description": "",
             "Steps": [
               {
@@ -2755,6 +2807,7 @@ jsonPWrapper ({
           },
           {
             "Name": "Divide two numbers",
+            "Slug": "divide-two-numbers",
             "Description": "",
             "Steps": [
               {
@@ -2963,7 +3016,7 @@ jsonPWrapper ({
   },
   "Configuration": {
     "SutName": "Pickles",
-    "SutVersion": "2.7.0",
-    "GeneratedOn": "14 Juni 2016 16:32:49"
+    "SutVersion": "2.8.0",
+    "GeneratedOn": "29 Juni 2016 14:05:56"
   }
 });
